@@ -1,0 +1,22 @@
+{
+  "name": "mcq",
+  "version": "1.0.0",
+  "description": "'MCQ Test Project'",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Pratik Sathe",
+  "license": "ISC",
+  "dependencies": {
+    "datetime": "0.0.3",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.5",
+    "mongoose-sequence": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
